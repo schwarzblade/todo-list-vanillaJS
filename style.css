@@ -133,5 +133,9 @@ select {
 	background: #ff6f47;
 	pointer-events: none;
 	padding: 1rem;
+	transition: all 0.3s ease;
 }
-
+.select:hover::after {
+	background: #fff;
+	color: #ff6f47;
+}
